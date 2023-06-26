@@ -6,4 +6,4 @@ execute at @s as @e[distance=0..3, tag=!ice_caster] run effect give @s slowness 
 playsound entity.enderman.teleport player @a ~ ~ ~ 1 0.5
 
 tag @s remove ice_caster
-scoreboard players set @s ice_gem_cooldown 0
+scoreboard players set @s right_click_ice 0
