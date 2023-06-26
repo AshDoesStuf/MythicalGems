@@ -36,3 +36,15 @@ execute as @a[scores={right_click_ice=1..},tag=ice_gem_cool] run scoreboard play
 
 execute as @a[scores={ice_gem_cooldown=200}] run function ash:cooldowns/ice_gem_cooldown
 # 
+
+# Float gem stuff
+execute as @e[nbt={SelectedItem: {tag: {float_gem: 1b}}},scores={right_click_float=1..},tag=!float_gem_cool] run function ash:mg/gems/float_gem/float_gem_ability
+
+execute as @a[tag=float_gem_cool] run scoreboard players add @s float_gem_cooldown 1
+
+execute as @a[scores={float_gem_cooldown=1}] run title @s actionbar {"text": "on cooldown!", "color": "red"}
+
+execute as @a[scores={right_click_float=1..},tag=float_gem_cool] run scoreboard players set @s right_click_float 0
+
+execute as @a[scores={float_gem_cooldown=200}] run function ash:cooldowns/float_gem_cooldown
+# 
