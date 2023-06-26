@@ -1,0 +1,16 @@
+{
+  "format_version": "1.19.2",
+  "type": "crafting_shaped",
+  "pattern": ["AAA", "ABA", "AAA"],
+  "key": {
+    "A": {
+      "item": "amethyst_shard"
+    },
+    "B": {
+      "item": "fire_charge"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

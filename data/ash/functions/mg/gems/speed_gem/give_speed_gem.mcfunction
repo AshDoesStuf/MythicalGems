@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display: {Name: '{"text":"Speed Gem","color":"#2290DA","bold":true,"italic":false}'}, Unbreakable: 1b, CustomModelData: 99, speed_gem: 1b} 1

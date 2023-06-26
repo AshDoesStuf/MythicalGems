@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ash:speed_gem"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ash:mg/gems/crafted_speed"
+  }
+}
